@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>E-Com Site</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="/add-products">Add Products</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner"> <img src="https://random-image-pepebigotes.vercel.app/api/random-image" alt="" srcset=""></div>
+    <div class="container-p"> <h1>Products </h1><hr> </div>
+    <div class="container">
+        <%if(data.length===0){%>
+            <h2>No products</h2>
+            <%}else{%>
+        <%data.forEach((product)=>{%>
+
+        <div class="product-card">
+            <img src="https://random-image-pepebigotes.vercel.app/api/random-image" alt="Product 1">
+            <h3><%=product.data%></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span>$19.99</span>
+            <button>Add to Cart</button>
+        </div>
+        <% })}%>
+       
+
+        <!-- Repeat the above product card structure for more products -->
+
+    </div>
+
+</body>
+</html>

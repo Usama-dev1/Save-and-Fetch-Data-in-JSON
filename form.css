@@ -1,0 +1,53 @@
+*::after,
+*::before,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  width: 100%;
+  height: 600px;
+  align-items: start; /* Center children vertically */
+  justify-content: space-evenly;
+}
+
+.form,
+.form2 {
+  
+  display: flex;
+  flex-direction: column;
+  width: 45%; /* Adjusted width for better spacing */
+  height: 50%;
+   /* Added margin for spacing between forms */
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px; /* Increased border radius */
+  border: 2px solid black;
+}
+
+input {
+  width: 50%;
+  height: 2rem;
+  border: 3px solid lightsalmon;
+  margin-bottom: 3rem;
+}
+
+button {
+  width: 20%;
+  height: 3rem;
+  background-color: lightsalmon;
+  border-radius: 100px;
+  border: 1px solid whitesmoke;
+  font-size: 20px;
+  margin: 20px;
+}
+button:hover
+{
+opacity: 0.9;
+color: snow;
+}

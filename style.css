@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color:#e44d26;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 80px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    width: 150px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product-card p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.product-card span {
+    color: #e44d26;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.product-card button:hover 
+{
+    background-color: #333;
+}
+
+.banner {
+    width: 100vw;
+    height: 50vh; /* Adjust the height as needed */
+    display: flex;
+    margin: 30px auto;
+    border: 5px double black;
+}
+
+.banner img 
+{
+width:100%;   
+height: 100%;
+object-fit: cover;
+}
+
+.container-p
+{
+    width: 80vw;
+    text-align: center;
+    margin-left:100px;
+    font-size:40px;
+    color: #e44d26;
+}
+
+.container-p hr
+{
+width: 30%;
+height: 10%;
+color: #e44d26;;
+}
