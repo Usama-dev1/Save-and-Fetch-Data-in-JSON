@@ -69,7 +69,9 @@ app.post('/submit', async (req, res, next) => {
          res.status(500).send('Internal Server Error');
      }
  });
-
+app.use((req,res)=>{
+    res.render('404')
+})
 
 app.listen(3000,
     (err) => {
