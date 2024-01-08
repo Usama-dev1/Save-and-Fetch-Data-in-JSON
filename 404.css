@@ -1,0 +1,50 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color:#e44d26;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.banner h1{
+color: red;
+margin-top: 70px;
+text-align: center;
+font-size: 70px;
+}
