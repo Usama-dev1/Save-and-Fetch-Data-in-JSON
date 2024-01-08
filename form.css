@@ -10,14 +10,13 @@ body {
   display: flex;
   margin-top: 20px;
   flex-direction: row;
-  width: 100%;
+  width: inherit;
   height: 600px;
   align-items: start; /* Center children vertically */
   justify-content: space-evenly;
 }
 
-.form,
-.form2 {
+.form {
   
   display: flex;
   flex-direction: column;
